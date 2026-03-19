@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplohtml</title>
+</head>
+
+<body>
+    <div id="titulo">
+        <h1>SITE DO LEVI</h1>
+    </div>
+    <p>
+        A <strong>Guerra Mundial</strong> foi um conflito global que ocorreu entre
+        <em>1914 e 1918</em>, envolvendo as principais potências europeias e suas
+        colônias. <u>Também conhecida como Grande Guerra, foi marcada por uma
+            escalada de tensões decorrentes de alianças militares, imperialismo,
+            nacionalismo exacerbado e corrida armamentista.</u> O estopim do conflito
+        foi o assassinato do arquiduque Francisco Ferdinando da Áustria e sua
+        esposa, Sofia, em Sarajevo, em 28 de junho de 1914, <mark>o que levou à
+            declaração de guerra da Áustria-Hungria à Sérvia.</mark>
+    </p>
+    <img src="./img/siri.gif" width="500" />
+    <ul>
+        <li>Maça</li>
+        <li>Banana</li>
+        <li>Pneultramicroscopicossilicovulcanoconiótico</li>
+    </ul>
+
+    <button onclick="ocultar()">Ocultar</button>
+    <button onclick="mostrar()">Mostrar</button>
+    
+    <div id="batata" style="display: none;">
+        sabor energetico
+    </div>
+
+    <div id="links">
+        <a href="https://store.steampowered.com/?l=portuguese">Clique aqui!</a>
+        <link type="text/css" rel="stylesheet" href="./css/tema.css">
+    </div>
+    
+</body>
+
+<script>
+    function ocultar () {
+        const bloco = document.getElementById('batata');
+        bloco.style.display ='none';
+    }
+    function mostrar() {
+        const bloco = document.getElementById('batata');
+        bloco.style.display = 'block';
+    }
+</script>
+
+
+</html>
