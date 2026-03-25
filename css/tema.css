@@ -1,3 +1,10 @@
+body {
+    background-image: url(../img/fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #titulo {
     text-align: center;
 }
@@ -7,15 +14,10 @@
     margin-top: 50px;
 }
 
-#sabor {
-    .bat {
-  width: 1px;
-  height: 1px;
-  transform: scale(4);
-  position: relative;
-  left: -128px;
-  top: -128px;
-  -webkit-animation: 0.4s bat steps(1) infinite;
-  animation: 0.4s bat steps(1) infinite;
+#perfil {
+    text-align: center;
 }
+
+#eu {
+    text-align: center;
 }
