@@ -1,8 +1,10 @@
 body {
-    background-image: url(../img/fundo2.jpg);
+    background-image: url(../img/mine.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
 }
 
 #titulo {
