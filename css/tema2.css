@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/pixel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+#topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: dimgray;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+#menu a:hover {
+    color: brown;
+}
